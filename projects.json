@@ -1,53 +1,71 @@
 [
   {
+    "name": "Spotify Image Downloader",
+    "description": "SpotifyImageDownloader é um projeto que usa a API do Spotify para buscar e baixar imagens de qualquer conteúdo disponível na plataforma, incluindo artistas, álbuns, playlists e faixas.",
     "repo_url": "https://github.com/JohnVitor-Dev/SpotifyImageDownloader",
     "deploy_url": "https://spotify-image-downloader.vercel.app/",
     "techs": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
     "status": "done"
   },
   {
+    "name": "Verse Scape",
+    "description": "VerseScape é um gerador de frases poéticas que cria um fundo e uma frase com base nas informações inseridas",
     "repo_url": "https://github.com/JohnVitor-Dev/VerseScape",
     "deploy_url": "https://johnvitor-dev.github.io/VerseScape/",
     "techs": ["HTML", "CSS", "JavaScript"],
     "status": "done"
   },
   {
+    "name": "Tamagotshi Pokemon",
+    "description": "O objetivo final da aplicação será imprimir todas as interações do usuário com o Tamagotchi na linha de comando. Utilizando a API Pokémon para buscar os pokémons que serão seus mascotes e implementar interações com eles através de comunicação com a API, utilizando o JSON obtido.",
     "repo_url": "https://github.com/JohnVitor-Dev/TamagotshiPokemon",
-    "deploy_url": "",
+    "deploy_url": null,
     "techs": ["C# 11", ".NET 7"],
     "status": "done"
   },
   {
+    "name": "Tab Tracker",
+    "description": "TabTracker é uma extensão de navegador que permite gerenciar e salvar URLs das abas abertas de forma simples e eficiente. Com esta extensão, você pode facilmente coletar seus links favoritos e acessá-los rapidamente sempre que precisar.",
     "repo_url": "https://github.com/JohnVitor-Dev/TabTracker",
-    "deploy_url": "",
+    "deploy_url": null,
     "techs": ["HTML", "CSS", "JavaScript"],
     "status": "done"
   },
   {
+    "name": "KeyRoomAPI-GerenciadorDeSalas",
+    "description": "Esta API permite o gerenciamento de reservas de salas, incluindo criação, listagem, atualização e exclusão de reservas e salas. Além disso, verifica conflitos de horários para garantir que não haja sobreposição de reservas para uma mesma sala.",
     "repo_url": "https://github.com/JETEJ-Org/KeyRoomAPI-GerenciadorDeSalas",
     "deploy_url": "https://keyroomapi.vercel.app/",
     "techs": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
     "status": "done"
   },
   {
+    "name": "Room Preview",
+    "description": "ROOMPreview é uma versão reduzida de um sistema para gerenciar o uso de salas, permitindo o controle de chaves por funcionários e a visualização em tempo real das aulas pelos alunos.",
     "repo_url": "https://github.com/JETEJ-Org/RoomPreview",
     "deploy_url": "https://room-preview.vercel.app/",
     "techs": ["HTML", "CSS", "JavaScript", "React"],
     "status": "done"
   },
   {
+    "name": "DuskPet-ClinicaVeterinaria",
+    "description": "A DuskPet é uma clínica veterinária dedicada ao atendimento de animais de estimação, focando em oferecer serviços de qualidade. O projeto visa resolver problemas operacionais que dificultam o trabalho diário e geram insatisfação entre os clientes.",
     "repo_url": "https://github.com/JohnVitor-Dev/DuskPet-ClinicaVeterinaria",
     "deploy_url": "https://dusk-pet-clinica-veterinaria.vercel.app/",
     "techs": ["HTML", "CSS", "JavaScript", "React"],
-    "status": "wip"
+    "status": "in-progress"
   },
   {
+    "name": "OpenChat",
+    "description": "O OpenChat é um aplicativo de chat desenvolvido para estudar e experimentar as funcionalidades do Firebase. O objetivo é fornecer uma plataforma simples e eficiente para comunicação instantânea utilizando o firebase.",
     "repo_url": "https://github.com/JohnVitor-Dev/OpenChat",
     "deploy_url": "https://johnvitor-dev.github.io/OpenChat/",
     "techs": ["HTML", "CSS", "JavaScript", "Firebase"],
     "status": "done"
   },
   {
+    "name": "Random Password",
+    "description": "O Random Password Generator é uma aplicação desenvolvida para gerar senhas aleatórias seguras.",
     "repo_url": "https://github.com/JohnVitor-Dev/RandomPassword",
     "deploy_url": "https://johnvitor-dev.github.io/RandomPassword/",
     "techs": ["HTML", "CSS", "JavaScript"],
