@@ -1,5 +1,5 @@
 async function fetchProjects() {
-    const url = "https://raw.githubusercontent.com/JohnVitor-Dev/Portfolio/refs/heads/main/projects.json";
+    const url = "https://raw.githubusercontent.com/JohnVitor-Dev/Portfolio/main/projects.json";
     const projectsGrid = document.getElementById("projects-grid");
 
 
