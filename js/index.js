@@ -18,28 +18,9 @@ async function fetchProjects() {
 
     for (const project of projects) {
         const repoFullName = project.repo_url.split("github.com/")[1];
-        const [githubUser, repoName] = repoFullName.split('/');
+        const repoName = repoFullName.split('/')[1];
 
-        let projectDescription = project.description || '';
-
-
-        if (!projectDescription) {
-            try {
-                const repoRes = await fetch(`https://api.github.com/repos/${githubUser}/${repoName}`);
-                if (repoRes.ok) {
-                    const repoData = await repoRes.json();
-                    projectDescription = repoData.description || "Nenhuma descrição disponível. Clique no link do GitHub para saber mais.";
-                } else {
-                    projectDescription = "Nenhuma descrição disponível. Clique no link do GitHub para saber mais.";
-                    console.warn(`Could not fetch description for ${repoFullName}: ${repoRes.statusText}`);
-                }
-            } catch (error) {
-                projectDescription = "Nenhuma descrição disponível. Clique no link do GitHub para saber mais.";
-                console.error(`Error fetching GitHub repo details for ${repoFullName}:`, error);
-            }
-        }
-
-
+        const projectDescription = project.description || "Nenhuma descrição disponível. Clique no link do GitHub para saber mais.";
 
         const statusClass = project.status === "done" ? "done" : "in-progress";
         const statusText = project.status === "done" ? "Concluído" : "Em Progresso";
