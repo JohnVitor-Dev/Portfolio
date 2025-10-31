@@ -1,5 +1,5 @@
 async function fetchProjects() {
-    const url = "https://cdn.jsdelivr.net/gh/JohnVitor-Dev/Portfolio@main/projects.json";
+    const url = "https://cdn.jsdelivr.net/gh/JohnVitor-Dev/Portfolio@main/projects.json?t=1";
     const projectsGrid = document.getElementById("projects-grid");
 
 
